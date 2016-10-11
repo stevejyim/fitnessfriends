@@ -1,0 +1,198 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Sass Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+nav.navbar {
+  border-radius: 0; }
+  nav.navbar .navbar-brand {
+    padding: 0 20px; }
+    nav.navbar .navbar-brand img {
+      display: block;
+      width: 100px;
+      height: 50px; }
+
+#myCarousel .item .hero-content.slide-1 {
+  top: 0; }
+  #myCarousel .item .hero-content.slide-1 h1 {
+    padding: 10px; }
+  #myCarousel .item .hero-content.slide-1 p {
+    display: none; }
+
+#myCarousel .item .hero-content {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center; }
+  #myCarousel .item .hero-content .btn-signup {
+    width: 150px;
+    height: 50px;
+    text-shadow: none;
+    border-style: none;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    background: #2aa7ff;
+    display: none; }
+
+@media (min-width: 768px) {
+  #myCarousel .item .hero-content.slide-1 {
+    text-align: left;
+    top: 70px;
+    left: 70px; }
+    #myCarousel .item .hero-content.slide-1 h1 {
+      padding: 10px;
+      margin: 0px auto; }
+    #myCarousel .item .hero-content.slide-1 p {
+      display: block;
+      margin-top: 0px; }
+  #myCarousel .item .hero-content {
+    bottom: 250px; }
+    #myCarousel .item .hero-content .btn-signup {
+      display: block; } }
+
+footer {
+  padding: 30px 0 10px 0;
+  background: #222222; }
+  footer .footer-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px; }
+  footer .footer-link {
+    margin: 15px 0; }
+    footer .footer-link a {
+      color: #2aa7ff; }
+  footer .copyright {
+    color: #fff;
+    opacity: 0.4; }
+
+body {
+  position: relative; }
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important; }
+
+nav.navbar {
+  margin-bottom: 0px; }
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto; }
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+#section2 {
+  margin: 20px auto; }
+  #section2 h1 {
+    margin-top: 0; }
+  #section2 .view-all {
+    margin: 5px; }
+    #section2 .view-all a {
+      color: #2aa7ff; }
+  #section2 .news-feed .news-card:last-child {
+    margin-bottom: 0; }
+  #section2 .news-feed .news-card {
+    margin-bottom: 20px;
+    border: 2px solid #222222; }
+    #section2 .news-feed .news-card .title {
+      background: #2aa7ff;
+      padding: 10px 0;
+      text-indent: 10px;
+      color: #fff;
+      font-size: 18px;
+      display: block; }
+    #section2 .news-feed .news-card .newscard-content {
+      padding: 10px; }
+    #section2 .news-feed .news-card p {
+      margin: 10px 0; }
+    #section2 .news-feed .news-card .date {
+      display: inline-block; }
+    #section2 .news-feed .news-card .published-by {
+      display: inline-block; }
+    #section2 .news-feed .news-card .btn-container .glyphicon {
+      margin-right: 5px; }
+    #section2 .news-feed .news-card .btn-container .like-btn {
+      color: #2aa7ff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 20px; }
+    #section2 .news-feed .news-card .btn-container .comments-btn {
+      color: #2aa7ff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 20px; }
+    #section2 .news-feed .news-card .btn-container .share-btn {
+      color: #2aa7ff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 20px; }
+  #section2 .week-calendar {
+    border: 2px solid #222222; }
+    #section2 .week-calendar .day-card .day {
+      background: #222222;
+      color: #fff;
+      font-size: 18px;
+      padding: 10px;
+      text-align: center; }
+    #section2 .week-calendar .gym-logo {
+      display: inline-block;
+      width: 50px; }
+      #section2 .week-calendar .gym-logo img {
+        width: 100%; }
+    #section2 .week-calendar .buddy-name {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600; }
+    #section2 .week-calendar .icon-plus {
+      display: inline-block;
+      width: 30px;
+      position: absolute;
+      right: 0;
+      margin: 10px; }
+      #section2 .week-calendar .icon-plus img {
+        width: 100%; }
+    #section2 .week-calendar .workout-card {
+      position: relative;
+      padding: 10px;
+      border-bottom: 2px solid #222222; }
+    #section2 .week-calendar .workout-card:last-child {
+      border-bottom: 2px solid transparent; }
+    #section2 .week-calendar .workout-card:hover {
+      background: #2aa7ff;
+      color: #fff; }
+
+#section3 {
+  border-top: 2px solid #222222;
+  margin: 50px auto; }
+  #section3 h1 {
+    text-align: center; }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.partners-img-wrapper {
+  width: 100%; }
+  .partners-img-wrapper img {
+    width: 100%;
+    display: block; }
+
+@media (min-width: 768px) {
+  #section3 {
+    padding: 0; } }

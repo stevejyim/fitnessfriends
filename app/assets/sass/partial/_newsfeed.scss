@@ -1,0 +1,110 @@
+#section2 {
+	margin: 20px auto;
+	h1 {
+		margin-top: 0;
+	}
+	.view-all {
+		margin: 5px;
+		a {
+			color: $light-blue;
+		}
+	}
+	.news-feed {
+		.news-card:last-child {
+			margin-bottom: 0;
+		}
+		.news-card {
+			margin-bottom: 20px;
+			border: 2px solid $grey;
+			.title {
+				background: $light-blue;
+				padding: 10px 0;
+				text-indent: 10px;
+				color: $white;
+				font-size: 18px;
+				display: block;
+			}
+			.newscard-content {
+				padding: 10px;
+			}
+			p {
+				margin: 10px 0;
+			}
+			.date {
+				display: inline-block;
+			}
+			.published-by {
+				display: inline-block;
+			}
+			.btn-container {
+				.glyphicon {
+					margin-right: 5px;
+				}
+				.like-btn {
+					color: $light-blue;
+					font-size: 14px;
+					font-weight: 600;
+					margin-left: 20px
+				}
+				.comments-btn {
+					color: $light-blue;
+					font-size: 14px;
+					font-weight: 600;
+					margin-left: 20px
+				}
+				.share-btn {
+					color: $light-blue;
+					font-size: 14px;
+					font-weight: 600;
+					margin-left: 20px
+				}
+			}
+		}
+	}
+	.week-calendar {
+		.day-card {
+			.day {
+				background: $grey;
+				color: $white;
+				font-size: 18px;
+				padding: 10px;
+				text-align: center;
+			}
+		}
+		border: 2px solid $grey;
+		.gym-logo {
+			display: inline-block;
+			width: 50px;
+			img {
+				width: 100%;
+			}
+		}
+		.buddy-name {
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 600;
+		}
+		.icon-plus {
+			display: inline-block;
+			width: 30px;
+			position: absolute;
+			right: 0;
+			margin: 10px;
+			img {
+				width: 100%;
+			}
+		}
+		.workout-card {
+			position: relative;
+			padding: 10px;
+			border-bottom: 2px solid $grey;
+		}
+		.workout-card:last-child {
+			border-bottom: 2px solid transparent;
+		}
+		.workout-card:hover {
+			background: $light-blue;
+			color: $white;
+		}
+	}
+}

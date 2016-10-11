@@ -1,0 +1,19 @@
+footer {
+	padding: 30px 0 10px 0;
+	background: $grey;
+	.footer-title {
+		color: $white;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.footer-link {
+		margin: 15px 0;
+		a {
+			color: $light-blue;
+		}
+	}
+	.copyright {
+		color: $white;
+		opacity: 0.4;
+	}
+}

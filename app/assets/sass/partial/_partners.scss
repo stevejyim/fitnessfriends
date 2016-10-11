@@ -1,0 +1,25 @@
+#section3 {
+	border-top: 2px solid $grey;
+	margin: 50px auto;
+	h1 {
+		text-align: center;
+	}
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.partners-img-wrapper {
+	width: 100%;
+	// background: red;
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+
+@media (min-width: $screen-sm-min) { 
+	#section3 {
+		padding: 0;
+	}
+}

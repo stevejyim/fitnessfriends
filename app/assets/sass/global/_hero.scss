@@ -1,0 +1,65 @@
+#myCarousel {
+	.item {
+		.hero-content.slide-1 {
+			top: 0;;
+			h1 {
+				padding: 10px;
+			}
+			p {
+				display: none;
+			}
+		}
+		.hero-content {
+			position: absolute;
+			right: 0;
+			bottom: 10px;
+			left: 0;
+			z-index: 10;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			color: #fff;
+			text-align: center;
+			.btn-signup {
+				width: 150px;
+				height: 50px;
+				text-shadow: none;
+				border-style: none;
+				text-align: center;
+				border-radius: 30px;
+				margin: 0 auto;
+				border: 2px solid $white;
+				background: $light-blue; 
+				display: none;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) { 
+	#myCarousel {
+		.item {
+			.hero-content.slide-1 {
+				text-align: left;
+				top: 70px;;
+				left: 70px;
+				h1 {
+					padding: 10px;
+					margin: 0px auto;
+				}
+				p {
+					display: block;
+					margin-top: 0px;
+				}
+			}
+			.hero-content {
+
+				bottom: 250px;
+				
+				.btn-signup {
+					display: block;
+
+				}
+			}
+		}
+	}
+}
